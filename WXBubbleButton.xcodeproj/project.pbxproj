@@ -13,6 +13,8 @@
 		CE6EF3BA1D458E4C008EE38D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6EF3B91D458E4C008EE38D /* Assets.xcassets */; };
 		CE6EF3BD1D458E4C008EE38D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6EF3BB1D458E4C008EE38D /* LaunchScreen.storyboard */; };
 		CE6EF3C81D458E4C008EE38D /* WXBubbleButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6EF3C71D458E4C008EE38D /* WXBubbleButtonUITests.swift */; };
+		CE6EF3D41D458E94008EE38D /* WXBubbleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6EF3D31D458E94008EE38D /* WXBubbleButton.swift */; };
+		CE6EF3D61D45948C008EE38D /* WXBubbleButton.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE6EF3D51D45948C008EE38D /* WXBubbleButton.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		CE6EF3C31D458E4C008EE38D /* WXBubbleButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WXBubbleButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6EF3C71D458E4C008EE38D /* WXBubbleButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WXBubbleButtonUITests.swift; sourceTree = "<group>"; };
 		CE6EF3C91D458E4C008EE38D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE6EF3D31D458E94008EE38D /* WXBubbleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXBubbleButton.swift; sourceTree = "<group>"; };
+		CE6EF3D51D45948C008EE38D /* WXBubbleButton.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WXBubbleButton.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		CE6EF3B11D458E4C008EE38D /* WXBubbleButton */ = {
 			isa = PBXGroup;
 			children = (
+				CE6EF3D21D458E68008EE38D /* WXBubbleButton */,
 				CE6EF3B21D458E4C008EE38D /* AppDelegate.swift */,
 				CE6EF3B41D458E4C008EE38D /* ViewController.swift */,
 				CE6EF3B61D458E4C008EE38D /* Main.storyboard */,
@@ -94,6 +99,15 @@
 				CE6EF3C91D458E4C008EE38D /* Info.plist */,
 			);
 			path = WXBubbleButtonUITests;
+			sourceTree = "<group>";
+		};
+		CE6EF3D21D458E68008EE38D /* WXBubbleButton */ = {
+			isa = PBXGroup;
+			children = (
+				CE6EF3D51D45948C008EE38D /* WXBubbleButton.bundle */,
+				CE6EF3D31D458E94008EE38D /* WXBubbleButton.swift */,
+			);
+			path = WXBubbleButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +191,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6EF3D61D45948C008EE38D /* WXBubbleButton.bundle in Resources */,
 				CE6EF3BD1D458E4C008EE38D /* LaunchScreen.storyboard in Resources */,
 				CE6EF3BA1D458E4C008EE38D /* Assets.xcassets in Resources */,
 				CE6EF3B81D458E4C008EE38D /* Main.storyboard in Resources */,
@@ -197,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6EF3D41D458E94008EE38D /* WXBubbleButton.swift in Sources */,
 				CE6EF3B51D458E4C008EE38D /* ViewController.swift in Sources */,
 				CE6EF3B31D458E4C008EE38D /* AppDelegate.swift in Sources */,
 			);
