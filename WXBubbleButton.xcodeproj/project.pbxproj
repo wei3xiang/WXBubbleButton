@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE6EF3B31D458E4C008EE38D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6EF3B21D458E4C008EE38D /* AppDelegate.swift */; };
+		CE6EF3B51D458E4C008EE38D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6EF3B41D458E4C008EE38D /* ViewController.swift */; };
+		CE6EF3B81D458E4C008EE38D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6EF3B61D458E4C008EE38D /* Main.storyboard */; };
+		CE6EF3BA1D458E4C008EE38D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6EF3B91D458E4C008EE38D /* Assets.xcassets */; };
+		CE6EF3BD1D458E4C008EE38D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6EF3BB1D458E4C008EE38D /* LaunchScreen.storyboard */; };
+		CE6EF3C81D458E4C008EE38D /* WXBubbleButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6EF3C71D458E4C008EE38D /* WXBubbleButtonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE6EF3C41D458E4C008EE38D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6EF3A71D458E4C008EE38D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE6EF3AE1D458E4C008EE38D;
+			remoteInfo = WXBubbleButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE6EF3AF1D458E4C008EE38D /* WXBubbleButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXBubbleButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6EF3B21D458E4C008EE38D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE6EF3B41D458E4C008EE38D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE6EF3B71D458E4C008EE38D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE6EF3B91D458E4C008EE38D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE6EF3BC1D458E4C008EE38D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE6EF3BE1D458E4C008EE38D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE6EF3C31D458E4C008EE38D /* WXBubbleButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WXBubbleButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6EF3C71D458E4C008EE38D /* WXBubbleButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WXBubbleButtonUITests.swift; sourceTree = "<group>"; };
+		CE6EF3C91D458E4C008EE38D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE6EF3AC1D458E4C008EE38D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6EF3C01D458E4C008EE38D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE6EF3A61D458E4C008EE38D = {
+			isa = PBXGroup;
+			children = (
+				CE6EF3B11D458E4C008EE38D /* WXBubbleButton */,
+				CE6EF3C61D458E4C008EE38D /* WXBubbleButtonUITests */,
+				CE6EF3B01D458E4C008EE38D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE6EF3B01D458E4C008EE38D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE6EF3AF1D458E4C008EE38D /* WXBubbleButton.app */,
+				CE6EF3C31D458E4C008EE38D /* WXBubbleButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE6EF3B11D458E4C008EE38D /* WXBubbleButton */ = {
+			isa = PBXGroup;
+			children = (
+				CE6EF3B21D458E4C008EE38D /* AppDelegate.swift */,
+				CE6EF3B41D458E4C008EE38D /* ViewController.swift */,
+				CE6EF3B61D458E4C008EE38D /* Main.storyboard */,
+				CE6EF3B91D458E4C008EE38D /* Assets.xcassets */,
+				CE6EF3BB1D458E4C008EE38D /* LaunchScreen.storyboard */,
+				CE6EF3BE1D458E4C008EE38D /* Info.plist */,
+			);
+			path = WXBubbleButton;
+			sourceTree = "<group>";
+		};
+		CE6EF3C61D458E4C008EE38D /* WXBubbleButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE6EF3C71D458E4C008EE38D /* WXBubbleButtonUITests.swift */,
+				CE6EF3C91D458E4C008EE38D /* Info.plist */,
+			);
+			path = WXBubbleButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE6EF3AE1D458E4C008EE38D /* WXBubbleButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE6EF3CC1D458E4C008EE38D /* Build configuration list for PBXNativeTarget "WXBubbleButton" */;
+			buildPhases = (
+				CE6EF3AB1D458E4C008EE38D /* Sources */,
+				CE6EF3AC1D458E4C008EE38D /* Frameworks */,
+				CE6EF3AD1D458E4C008EE38D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WXBubbleButton;
+			productName = WXBubbleButton;
+			productReference = CE6EF3AF1D458E4C008EE38D /* WXBubbleButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE6EF3C21D458E4C008EE38D /* WXBubbleButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE6EF3CF1D458E4C008EE38D /* Build configuration list for PBXNativeTarget "WXBubbleButtonUITests" */;
+			buildPhases = (
+				CE6EF3BF1D458E4C008EE38D /* Sources */,
+				CE6EF3C01D458E4C008EE38D /* Frameworks */,
+				CE6EF3C11D458E4C008EE38D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE6EF3C51D458E4C008EE38D /* PBXTargetDependency */,
+			);
+			name = WXBubbleButtonUITests;
+			productName = WXBubbleButtonUITests;
+			productReference = CE6EF3C31D458E4C008EE38D /* WXBubbleButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE6EF3A71D458E4C008EE38D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "魏翔";
+				TargetAttributes = {
+					CE6EF3AE1D458E4C008EE38D = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					CE6EF3C21D458E4C008EE38D = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = CE6EF3AE1D458E4C008EE38D;
+					};
+				};
+			};
+			buildConfigurationList = CE6EF3AA1D458E4C008EE38D /* Build configuration list for PBXProject "WXBubbleButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE6EF3A61D458E4C008EE38D;
+			productRefGroup = CE6EF3B01D458E4C008EE38D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE6EF3AE1D458E4C008EE38D /* WXBubbleButton */,
+				CE6EF3C21D458E4C008EE38D /* WXBubbleButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE6EF3AD1D458E4C008EE38D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6EF3BD1D458E4C008EE38D /* LaunchScreen.storyboard in Resources */,
+				CE6EF3BA1D458E4C008EE38D /* Assets.xcassets in Resources */,
+				CE6EF3B81D458E4C008EE38D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6EF3C11D458E4C008EE38D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE6EF3AB1D458E4C008EE38D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6EF3B51D458E4C008EE38D /* ViewController.swift in Sources */,
+				CE6EF3B31D458E4C008EE38D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6EF3BF1D458E4C008EE38D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6EF3C81D458E4C008EE38D /* WXBubbleButtonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE6EF3C51D458E4C008EE38D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE6EF3AE1D458E4C008EE38D /* WXBubbleButton */;
+			targetProxy = CE6EF3C41D458E4C008EE38D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE6EF3B61D458E4C008EE38D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE6EF3B71D458E4C008EE38D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE6EF3BB1D458E4C008EE38D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE6EF3BC1D458E4C008EE38D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE6EF3CA1D458E4C008EE38D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE6EF3CB1D458E4C008EE38D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE6EF3CD1D458E4C008EE38D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WXBubbleButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.msucity.WXBubbleButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE6EF3CE1D458E4C008EE38D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WXBubbleButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.msucity.WXBubbleButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CE6EF3D01D458E4C008EE38D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WXBubbleButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.msucity.WXBubbleButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WXBubbleButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CE6EF3D11D458E4C008EE38D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WXBubbleButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.msucity.WXBubbleButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WXBubbleButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE6EF3AA1D458E4C008EE38D /* Build configuration list for PBXProject "WXBubbleButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6EF3CA1D458E4C008EE38D /* Debug */,
+				CE6EF3CB1D458E4C008EE38D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE6EF3CC1D458E4C008EE38D /* Build configuration list for PBXNativeTarget "WXBubbleButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6EF3CD1D458E4C008EE38D /* Debug */,
+				CE6EF3CE1D458E4C008EE38D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE6EF3CF1D458E4C008EE38D /* Build configuration list for PBXNativeTarget "WXBubbleButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6EF3D01D458E4C008EE38D /* Debug */,
+				CE6EF3D11D458E4C008EE38D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE6EF3A71D458E4C008EE38D /* Project object */;
+}
